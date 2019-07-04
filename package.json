@@ -1,0 +1,46 @@
+{
+  "name": "buckeyecharge",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://leighd2008.github.io/BuckeyeCharge",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@types/color": "^3.0.0",
+    "bootstrap": "^4.3.1",
+    "fstream": "^1.0.12",
+    "gapi-client": "0.0.3",
+    "gh-pages": "^2.0.1",
+    "i": "^0.3.6",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "npm": "^6.9.0",
+    "query-string": "^6.8.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1",
+    "reactstrap": "^8.0.0",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.3.2",
+    "tachyons": "^4.11.1",
+    "tar": "^4.4.10",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
