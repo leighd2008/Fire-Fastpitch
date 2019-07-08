@@ -1,8 +1,8 @@
 {
-  "name": "buckeyecharge",
+  "name": "firefastpitch",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://leighd2008.github.io/BuckeyeCharge",
+  "homepage": "https://leighd2008.github.io/Fire-Fastpitch",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",

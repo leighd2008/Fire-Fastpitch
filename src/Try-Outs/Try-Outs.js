@@ -41,8 +41,10 @@ const TryOuts = ({ homeImage }) => {
             <CardText tag="h1">Evaluations will include: Simple infield & outfield drills, Timed base running, Hitting and Softball IQ. 
                 <br/>
                 <br/>
-                <h3>If you or anyone you know is interested in discussing a coaching opportunity or would like to get a private tryout for your daughter please contact us here by email at: </h3>
-                <h3>Fire.Fastpitch.Softball@gmail.com</h3>
+                <h3>If you or anyone you know is interested in discussing a coaching opportunity or would like to get a private tryout for your daughter please contact us here by email or phone at: </h3>
+                Fire.Fastpitch.Softball@gmail.com
+                <br/>
+                Phone: 330-980-1366
                 <br/>
                 <br/>
               </CardText>
