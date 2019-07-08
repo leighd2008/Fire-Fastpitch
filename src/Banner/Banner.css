@@ -5,11 +5,12 @@
   background-color: hsla(0,0%,100%,0.0) !important;  
   background-position: center;
   width: 80vw;
-  height: 50vw;
+  height: 40vw;
   border: none;
-  max-height: 600px;
+  max-height: 350px;
   max-width: 950px; 
   min-width: 350px;
   margin: auto;
+  margin-bottom: 0px !important;
 }
 

@@ -3,14 +3,19 @@ body {
   padding: 0;
   text-align: center;
   vertical-align: middle;
-  background-image: url("../images/catch.JPG");
+  background-image: url("../images/ash-background-beautiful-216640.png");
   background-attachment: fixed !important;
-  background-size: contain !important;
+  /* background-size: cover !important; */
   position: relative;
   display: table;
   width: 100%;
   background-repeat: no-repeat !important;
   background-position: 50.00% 20.51% !important;
-  background-size: 100% !important;
+  background-size: auto;
   background-color: transparent !important;
+}
+
+h2, li, h3, h5 {
+  color: white;
+  text-shadow:none;
 }
