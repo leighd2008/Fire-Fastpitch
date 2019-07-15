@@ -96,7 +96,7 @@ const TryOuts = ({ homeImage }) => {
                     placeholder="" style={{margin: '2%', width: '80%'}}></textarea>
                   </fieldset>
                   <fieldset>
-                    <label>Tryout Attending:
+                    <option>Tryout Attending:
                       <select>
                         <option value="1">"10U — Saturday July 27th 10:00 AM - 12:00 PM"</option>
                         <option value="2">"12U — Saturday July 27th 12:00 PM - 2:00 PM"</option>
@@ -107,7 +107,7 @@ const TryOuts = ({ homeImage }) => {
                         <option value="7">"All ages — Wednesday July 31st 6:00 PM - 8:00 PM"</option>
                         <option value="8">"Other"</option>
                       </select>
-                    </label>
+                    </option>
                   </fieldset>
                   <button className="button-success pure-button button-xlarge">
                     <i className="fa fa-paper-plane"></i>&nbsp;Send</button>
