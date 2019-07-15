@@ -105,7 +105,7 @@ const TryOuts = ({ homeImage }) => {
                         <option value="5">"12U — Saturday Aug. 3rd 12:00 PM - 2:00 PM"</option>
                         <option value="6">"14U — Saturday Aug. 3rd 2:00 PM - 4:00 PM"</option>
                         <option value="7">"All ages — Wednesday July 31st 6:00 PM - 8:00 PM"</option>
-                        <option>value="8">"Other"</option>
+                        <option value="8">"Other"</option>
                       </select>
                     </label>
                   </fieldset>
