@@ -63,20 +63,12 @@ const TryOuts = ({ homeImage }) => {
                     <input id="positions" name="positions" placeholder="" />
                   </fieldset>
                   <fieldset>
-                    <label>Throws: 
-                      <select id="throws" name="throws">
-                        <option value="right">Right</option>
-                        <option value="left">Left</option>
-                      </select>
-                    </label>
+                    <label>Throws (right / left): </label>
+                    <input id="throws" name="throws" placeholder="" />
                   </fieldset>
                   <fieldset>
-                    <label>Bats:
-                      <select id="bats" name="bats">
-                        <option value="right">Right</option>
-                        <option value="left">Left</option>
-                      </select>
-                    </label>
+                    <label>Bats (right / left):</label>
+                    <input id="bats" name="bats" placeholder="" />
                   </fieldset>
                   <fieldset>
                     <label>Date of Birth: </label>
@@ -96,33 +88,17 @@ const TryOuts = ({ homeImage }) => {
                     placeholder="" style={{margin: '2%', width: '80%'}}></textarea>
                   </fieldset>
                   <fieldset>
-                    <label>Tryout Attending:
-                      <select id="tryout" name="tryout">
-                        <option value="10U — Saturday July 27th 10:00 AM - 12:00 PM">10U — Saturday July 27th 10:00 AM - 12:00 PM</option>
-                        <option value="12U — Saturday July 27th 12:00 PM - 2:00 PM">12U — Saturday July 27th 12:00 PM - 2:00 PM</option>
-                        <option value="14U — Saturday July 27th 2:00 PM - 4:00 PM">14U — Saturday July 27th 2:00 PM - 4:00 PM</option>
-                        <option value="10U — Saturday Aug. 3rd 10:00 AM - 12:00 PM">10U — Saturday Aug. 3rd 10:00 AM - 12:00 PM</option>
-                        <option value="12U — Saturday Aug. 3rd 12:00 PM - 2:00 PM">12U — Saturday Aug. 3rd 12:00 PM - 2:00 PM</option>
-                        <option value="14U — Saturday Aug. 3rd 2:00 PM - 4:00 PM">14U — Saturday Aug. 3rd 2:00 PM - 4:00 PM</option>
-                        <option value="All ages — Wednesday July 31st 6:00 PM - 8:00 PM">All ages — Wednesday July 31st 6:00 PM - 8:00 PM</option>
-                        <option value="Other">Other</option>
-                      </select>
-                    </label>
+                    <label>Tryout (July 27, July 31, August 3, other):</label>
+                      <input id="tryout" name="tryout" placeholder="What day will you be attending?" />
+                  </fieldset>
+                  <fieldset>
+                    <label>Time (10AM, 12PM, 2PM, other):</label>
+                      <input id="time" name="time" placeholder="Which session will you be attending?" />
                   </fieldset>
                   <button className="button-success pure-button button-xlarge">
                     <i className="fa fa-paper-plane"></i>&nbsp;Send</button>
                 </form>
                 <br/>
-
-                {/* Customise the Thankyou Message People See when they submit the form: */}
-                {/* <div style={{display:'none'}}> id="thankyou_message">
-                  <h2><em>Thank you for pre-registering.</em> See you at the tryouts!</h2>
-                </div> */}
-
-                {/* Submit the Form to Google Using "AJAX"  */}
-                {/* <script data-cfasync="false" type="text/javascript"
-                src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> */}
-              {/* END */}
               </CardText>
           </CardBody>
         </Card>
