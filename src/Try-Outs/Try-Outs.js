@@ -64,7 +64,7 @@ const TryOuts = ({ homeImage }) => {
                   </fieldset>
                   <fieldset>
                     <label>Throws: 
-                      <select>
+                      <select id="throws" name="throws">
                         <option value="right">Right</option>
                         <option value="left">Left</option>
                       </select>
@@ -72,7 +72,7 @@ const TryOuts = ({ homeImage }) => {
                   </fieldset>
                   <fieldset>
                     <label>Bats:
-                      <select>
+                      <select id="bats" name="bats">
                         <option value="right">Right</option>
                         <option value="left">Left</option>
                       </select>
@@ -97,15 +97,15 @@ const TryOuts = ({ homeImage }) => {
                   </fieldset>
                   <fieldset>
                     <label>Tryout Attending:
-                      <select>
-                        <option value="1">10U — Saturday July 27th 10:00 AM - 12:00 PM</option>
-                        <option value="2">12U — Saturday July 27th 12:00 PM - 2:00 PM</option>
-                        <option value="3">14U — Saturday July 27th 2:00 PM - 4:00 PM</option>
-                        <option value="4">10U — Saturday Aug. 3rd 10:00 AM - 12:00 PM</option>
-                        <option value="5">12U — Saturday Aug. 3rd 12:00 PM - 2:00 PM</option>
-                        <option value="6">14U — Saturday Aug. 3rd 2:00 PM - 4:00 PM</option>
-                        <option value="7">All ages — Wednesday July 31st 6:00 PM - 8:00 PM</option>
-                        <option value="8">Other</option>
+                      <select id="tryout" name="tryout">
+                        <option value="10U — Saturday July 27th 10:00 AM - 12:00 PM">10U — Saturday July 27th 10:00 AM - 12:00 PM</option>
+                        <option value="12U — Saturday July 27th 12:00 PM - 2:00 PM">12U — Saturday July 27th 12:00 PM - 2:00 PM</option>
+                        <option value="14U — Saturday July 27th 2:00 PM - 4:00 PM">14U — Saturday July 27th 2:00 PM - 4:00 PM</option>
+                        <option value="10U — Saturday Aug. 3rd 10:00 AM - 12:00 PM">10U — Saturday Aug. 3rd 10:00 AM - 12:00 PM</option>
+                        <option value="12U — Saturday Aug. 3rd 12:00 PM - 2:00 PM">12U — Saturday Aug. 3rd 12:00 PM - 2:00 PM</option>
+                        <option value="14U — Saturday Aug. 3rd 2:00 PM - 4:00 PM">14U — Saturday Aug. 3rd 2:00 PM - 4:00 PM</option>
+                        <option value="All ages — Wednesday July 31st 6:00 PM - 8:00 PM">All ages — Wednesday July 31st 6:00 PM - 8:00 PM</option>
+                        <option value="Other">Other</option>
                       </select>
                     </label>
                   </fieldset>
