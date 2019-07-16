@@ -34,7 +34,7 @@ h2, li, h3, h5 {
     width: 90%;
     background-repeat: no-repeat !important;
     background-position: 0% 20.51% !important;
-    background-size: auto;
+    background-size: 100%;
     background-color: transparent !important;
   }
 }
