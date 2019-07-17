@@ -20,10 +20,10 @@ const TryOuts = ({ homeImage }) => {
       <Card style={{ backgroundColor: '#6c757d00', borderColor: '#6c757d00' }}>
           <CardBody>
             <CardTitle className="tc f1" tag="h1">Are you ready to play with FIRE?</CardTitle>
-            <h3>FIRE FASTPITCH will have open try outs for divisions 10U, 12U and 14U. </h3>
+            <h3>FIRE FASTPITCH will have open try outs for divisions 8U, 10U, 12U and 14U. </h3>
             <h3>Scroll down for Pre-Registration form</h3>
             <h1>Saturday July 27th & Saturday Aug. 3rd</h1>
-            <h3>10U — 10:00 AM - 12:00 PM*</h3>
+            <h3>8U & 10U — 10:00 AM - 12:00 PM*</h3>
             <h3>12U — 12:00 PM - 2:00 PM*</h3>
             <h3>14U — 2:00 PM - 4:00 PM*</h3>
             <h1>Wednesday July 31st</h1>
@@ -93,11 +93,11 @@ const TryOuts = ({ homeImage }) => {
                   </fieldset>
                   <fieldset>
                     <label>Tryout (July 27, July 31, August 3, other):</label>
-                      <input id="tryout" name="tryout" placeholder="What day will you be attending?" />
+                      <input id="tryout" name="tryout" placeholder="Which day?"/>
                   </fieldset>
                   <fieldset>
                     <label>Time (10AM, 12PM, 2PM, other):</label>
-                      <input id="time" name="time" placeholder="Which session will you be attending?" />
+                      <input id="time" name="time" placeholder="Which session?"/>
                   </fieldset>
                   <button className="button-success pure-button button-xlarge">
                     <i className="fa fa-paper-plane"></i>&nbsp;Send</button>
