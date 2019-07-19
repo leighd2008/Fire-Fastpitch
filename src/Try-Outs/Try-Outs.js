@@ -75,7 +75,7 @@ const TryOuts = ({ homeImage }) => {
                     <input id="dob" name="dob" placeholder="mm/dd/yy" />
                   </fieldset>
                   <fieldset>
-                    <label>T-Shirt size: </label>
+                    <label>T-Shirt size (Girls - S, M, L; Womens - S, M, L, XL): </label>
                     <input id="tshirt" name="tshirt" placeholder="" />
                   </fieldset>
                   <fieldset>
