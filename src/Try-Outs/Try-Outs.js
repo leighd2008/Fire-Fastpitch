@@ -3,6 +3,8 @@ import { Card, CardTitle, CardText, CardBody, Jumbotron } from 'reactstrap';
 // import Contact from '../Contact/Contact';
 // import fieldImage from '../images/mark-duffel-352915-unsplash2.jpg';
 // import HomeField from '../HomeField/HomeField';
+import './Try-outs.css';
+import tshirt from "../images/tshirt.jpg"
 
 const TryOuts = ({ homeImage }) => {
   // const contact1="Fire.Fastpitch.Softball@gmail.com"
@@ -21,7 +23,10 @@ const TryOuts = ({ homeImage }) => {
           <CardBody>
             <CardTitle className="tc f1" tag="h1">Are you ready to play with FIRE?</CardTitle>
             <h3>FIRE FASTPITCH will have open try outs for divisions 8U, 10U, 12U and 14U. </h3>
-            <h3>Scroll down for Pre-Registration form</h3>
+            <h3>Scroll down for Pre-Registration form </h3>
+            <Jumbotron style={{ backgroundImage: `url(${tshirt})`, width: '90vw', border: 'none' }}> 
+            </Jumbotron>
+            {/* <img alt="free Rip-It T-shirt" src="./images/tshirt.jpg" />  */}
             <h1>Saturday July 27th & Saturday Aug. 3rd</h1>
             <h3>8U & 10U — 10:00 AM - 12:00 PM*</h3>
             <h3>12U — 12:00 PM - 2:00 PM*</h3>

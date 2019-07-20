@@ -1,0 +1,59 @@
+/* this is only need for tryouts only once other parts are added back in this will be a duplicate to Home.css and Navigation.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url("../images/ash-background-beautiful-216640.png");
+  background-attachment: fixed !important;
+  /* background-size: cover !important; */
+  position: relative;
+  display: table;
+  width: 100%;
+  background-repeat: no-repeat !important;
+  background-position: center top !important;
+  background-size: auto;
+  background-color: transparent !important;
+}
+
+h2, li, h3, h5 {
+  color: white;
+  text-shadow:none;
+}
+
+
+h4, h1 {
+  color: red !important;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+ }
+ 
+ p {
+   color: black;
+   text-shadow:none;
+ }
+ 
+ .jumbotron {
+  padding: 0px !important;
+  background: no-repeat;
+  background-size: contain !important;
+  background-color: hsla(0,0%,100%,0.0) !important;  
+  background-position: center;
+  width: 80vw;
+  height: 40vw;
+  border: none;
+  max-height: 350px;
+  max-width: 950px; 
+  min-width: 350px;
+  margin: auto;
+  margin-bottom: 0px !important;
+}
+
+.item { color: #B24005;
+  font-size: 20px;
+  text-align: left
+}
+.item:hover { color: #00B295;
+        font-size: 20px;
+        text-align: left
+}
