@@ -24,8 +24,8 @@ const TryOuts = ({ homeImage }) => {
             <CardTitle className="tc f1" tag="h1">Are you ready to play with FIRE?</CardTitle>
             <h3>FIRE FASTPITCH will have open try outs for divisions 8U, 10U, 12U and 14U. </h3>
             <h3>Scroll down for Pre-Registration form </h3>
-            <Jumbotron style={{ backgroundImage: `url(${tshirt})`, width: '90vw', border: 'none' }}> 
-            </Jumbotron>
+            {/* <Jumbotron style={{ backgroundImage: `url(${tshirt})`, width: '90vw', border: 'none' }}> 
+            </Jumbotron> */}
             {/* <img alt="free Rip-It T-shirt" src="./images/tshirt.jpg" />  */}
             <h1>Saturday July 27th & Saturday Aug. 3rd</h1>
             <h3>8U & 10U — 10:00 AM - 12:00 PM*</h3>
