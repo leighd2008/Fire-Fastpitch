@@ -4,7 +4,7 @@ import { Card, CardTitle, CardText, CardBody, Jumbotron } from 'reactstrap';
 // import fieldImage from '../images/mark-duffel-352915-unsplash2.jpg';
 // import HomeField from '../HomeField/HomeField';
 import './Try-outs.css';
-import tshirt from "../images/tshirt.jpg"
+// import tshirt from "../images/tshirt.jpg"
 
 const TryOuts = ({ homeImage }) => {
   // const contact1="Fire.Fastpitch.Softball@gmail.com"
